@@ -1,18 +1,22 @@
-## Getting Started
+# Desafio de Controle de Fluxo da DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido por Ítalo Lúcio como parte do desafio da terceira semana de estudos na Digital Innovation One (DIO).
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+Este projeto consiste na implementação de um programa em Java que realiza a contagem e impressão de números baseado em dois parâmetros fornecidos via terminal. Se o primeiro parâmetro for maior que o segundo, uma exceção customizada é lançada. O programa utiliza conceitos de controle de fluxo, entrada de dados via terminal e tratamento de exceções em Java.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Validação dos parâmetros de entrada via terminal.
+- Contagem e impressão de números com base nos parâmetros fornecidos.
+- Lançamento de exceção `ParametrosInvalidosException` caso o primeiro parâmetro seja maior que o segundo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplo de Uso
+Ao executar o programa e fornecer os parâmetros corretamente, você verá a contagem dos números impressos no console.
 
-## Dependency Management
+### Contato
+Email: italoluc.dev@gmail.com
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Estado do Projeto
+Concluído.
